@@ -1,0 +1,180 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 75%;
+    align-items: center;
+    margin:auto;
+  }
+img {
+    object-fit: contain;
+}
+.headerbox {
+    display: flex;
+    flex wrap: none;
+    padding: 35px;
+    background-color: #1F2937;
+    height: 45px;
+}
+.headerlogo {
+    color: rgb(236, 244, 250); 
+    padding-left: 200px;
+    font-size: medium;
+}
+.spacer1 {
+    width: 20%;
+}
+h1,
+ h2{
+    margin:0%;
+}
+.headerlinks {
+    padding-right: 100px;
+}
+a {
+    color: white;
+    padding-left: 4%;
+}
+.firstbox {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    height: 350px;
+    color: white;
+    padding-top: 100px;
+}
+.firstleft {
+    margin-left: -63px;
+}
+.hero {
+    font-size: 48px;
+    font-weight: bolder;
+}
+button {
+    background-color: #3882F6;
+    width: 160px;
+    height: 35px;
+    font-size: large;
+    color: white;
+    border: none;
+    border-radius: 15px;
+}
+.spacer2 {
+    width: 10%;
+}
+.secondbox {
+    width:75%;
+    margin:auto;
+}
+.species {
+    text-align: center;
+    padding-top: 15px;
+    font-size:xx-large;
+}
+.fishpics {
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    padding-top: 50px;
+}
+.perch {
+    object-fit: contain;
+    border: solid 1px #3882F6;
+    border-radius: 25px;
+}
+.walleye {
+    object-fit: contain;
+    border: solid 1px #3882F6;
+    border-radius: 25px;
+}
+.sunfish {
+    object-fit: contain;
+    border: solid 1px #3882F6;
+    border-radius: 25px;
+}
+.brooktrout {
+    object-fit: contain;
+    border: solid 1px #3882F6;
+    border-radius: 25px;
+}
+figcaption {
+    text-align: center;
+}
+.quotediv {
+    height:350px;
+    background-color:#E5E7EB;
+}
+.quote {
+    text-align: center;
+    padding-left: 195px;
+    padding-right: 195px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+.richie {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 245px;
+    margin-top: -115px;
+}
+.emptyspace {
+    height: 90px;
+}
+.calltoaction{
+    display: flex;
+    width: 80%;
+    height: 165px;
+    background-color: #3882F6;
+    margin:auto;
+    border-radius: 15px;
+}
+.ctatext {
+    font-size: 42px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+    padding-left: 100px;
+    margin: 0;
+}
+.spacer3 {
+    width: 20%;
+}
+.ctatext1 {
+    color: white;
+    font-size: 30px;
+    padding-left: 100px;
+    padding-top: 5px;
+    margin: 0;
+}
+.learn {
+    display: flex;
+    border: solid 1px white;
+    color: white;
+    background-color: #3882F6;
+    font-weight: 500;
+    align-items: center;
+}
+.callright {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    width: 100%;
+    height: 50px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
